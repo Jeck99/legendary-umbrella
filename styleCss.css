@@ -1,0 +1,9 @@
+#bgDiv{
+    background: url('wp2771912.jpg');
+    width: 100vw;
+    height: 100vh;
+}
+#imgDiv{
+    width: fit-content;
+    filter: drop-shadow(4px 3px 10px yellow);
+}

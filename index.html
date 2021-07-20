@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleCss.css">
+    <title>Document</title>
+    <style>
+        #hoverDiv {
+            background-color: rgb(0, 17, 255);
+            width: 50px;
+            height: 50px;
+        }
+
+        #myDiv {
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            transition: background-color 4s 0 ease-in-out;
+        }
+
+        #hoverDiv:hover+#myDiv {
+            background-color: yellow;
+            /* width: 200px;
+            height: 200px; */
+        }
+         #threedDiv {
+            width: 200px;
+            height: 200px;
+            background-color: chartreuse
+        };
+       #threedDiv:hover {
+            background-color: blue;
+            transform: translate3d(12px, 50%, 3em);
+        }
+    </style>
+</head>
+
+<body>
+    <div id="bgDiv">
+        <img id="imgDiv" src="naruto.png">
+    </div>
+    <div id="hoverDiv">HOVER</div>
+    <div class="divGroup" id="myDiv">my div</div>
+    <form>
+        <label for="firstName">first name :</label><br>
+        <input type="text" name="firstName" placeholder="exm: Jacob"><br>
+        <label for="lastName">last name :</label><br>
+        <input type="text" name="lastName" placeholder="exm: Inggidou"><br>
+        <label>number :</label><br>
+        <input type="number"><br>
+        <label>color :</label><br>
+        <input type="color"><br>
+        <label>date :</label><br>
+        <input type="date"><br>
+        <label>email:</label><br>
+        <input type="email"><br>
+        <label>password :</label><br>
+        <input type="password"><br>
+        <input type="submit">
+        <input type="reset">
+    </form>
+</body>
+
+</html>
+
+
+
+<!-- 
+<div id="" class="" style="" >DIV</div>
+<h1>HELLO WORLD</h1>
+<section>...........................SECTION..................</section>
+<img src="" alt="">
+<a href=""></a>
+<button onclick=""></button>
+    <form>
+        <label for="firstName">first name :</label><br>
+        <input disabled type="text" name="firstName" placeholder="please enter first name"><br>
+        <label for="lastName">last Name :</label><br>
+        <input pattern="[A-Z]*" type="text" name="lastName" ><br>
+        <label>number :</label><br>
+        <input type="number" name="" id="" max="9" min="5"><br>
+        <label>color :</label><br>
+        <input type="color" name="" id=""><br>
+        <label>date :</label><br>
+        <input type="date" name="" id=""><br>
+        <label>email:</label><br>
+        <input type="email" name="" id=""><br>
+        <label>password :</label><br>
+        <input required type="password" name="" id=""><br>
+        <input type="submit" value="click">
+    </form> -->
